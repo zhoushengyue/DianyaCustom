@@ -11,7 +11,7 @@ map.add(marker);//添加到地图
 
 var infoWindow = new AMap.InfoWindow({ //创建信息窗体
   isCustom: true,  //使用自定义窗体
-  content:'<div><p><b><a href="http://zjjc.cmie.cn">长沙典雅橱柜衣柜定制</a></b></p></div>'
+  content:'<div><p><b><a href="amapuri://route/plan/?sname=我的位置&dlat=28.184624&dlon=113.016101&dname=长沙典雅橱柜&dev=0&t=0">点此导航到店</a></b></p></div>'
   //offset:new Amap.Pixel(5,-5)
 });
 var onMarkerClick  =  function(e) {
