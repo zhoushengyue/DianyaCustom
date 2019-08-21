@@ -35,10 +35,14 @@
       @font-face 
       {
           font-family:FZRUIZHK;
-          src: url('FZRuiZHK_0820.TTF');
+          src: url('FZRuiZHK_0821.TTF');
       }
       .fzruizhk{
     font-size: 28px;
+    font-family: FZRUIZHK;
+  }
+       .fzruizhk-p{
+    font-size: 20px;
     font-family: FZRUIZHK;
   }
       .fzruizhk-big{
@@ -66,7 +70,7 @@
     
     <div class="row">
             <img src="典雅橱柜.png" class="center-block col-md-1 logo-css-2">
-            <h2 class="text-left col-md-7 fzruizhk">长沙典雅橱柜·衣柜定制<br><small>Changsha DianYa Cabinet Custom</small></h2>
+            <h2 class="text-left col-md-7 fzruizhk">长沙典雅橱柜·衣柜定制<br><small>Changsha Dianya Cabinet Custom</small></h2>
             
     </div>
     
@@ -175,9 +179,22 @@
         <div class="col-md-4 col-sm-6">
           <img class="img-circle center-block" src="Heading00.jpg" alt="Generic placeholder image" width="180" height="160">
           <h2 class="fzruizhk text-center">品牌形象店</h2>
-          <p class="indexSameHeight">典雅定制家居的品牌形象店位于高桥建材市场北门1栋1号，交通便利，黄金铺位方便您前来体验。<br>
-          <b>直达公交车：<br>111；112；113；114；141等</b></p>
-          <p><a class="btn btn-primary center-block" href="amapuri://route/plan/?sname=我的位置&dlat=28.184624&dlon=113.016101&dname=长沙典雅橱柜&dev=0&t=0">点此高德导航到店</a></p>
+          <p class="">典雅定制家居的品牌形象店位于高桥建材市场北门1栋1号，交通便利，黄金铺位方便您前来体验。<br>
+          <p class="fzruizhk-p"><b>直达公交车：<br>111；112；113；114；141等</b></p>
+          <!-- <p><a class="btn btn-primary center-block" href="amapuri://route/plan/?sname=我的位置&dlat=28.184624&dlon=113.016101&dname=长沙典雅橱柜&dev=0&t=0">安卓点此高德导航到店</a></p>
+          <p><a class="btn btn-success center-block" href="iosamap://path?sourceApplication=applicationName&sid=BGVIS1&sname=我的位置&dlat=28.184624&dlon=113.016101&dname=长沙典雅橱柜&dev=0&t=0">苹果系统点此导航到店</a></p>-->
+            <!-- Single button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-success dropdown-toggle center-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    高德导航到店 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="amapuri://route/plan/?sname=我的位置&dlat=28.184624&dlon=113.016101&dname=长沙典雅橱柜&dev=0&t=0">安卓手机</a></li>
+    <li><a href="iosamap://path?sourceApplication=applicationName&sid=BGVIS1&sname=我的位置&dlat=28.184624&dlon=113.016101&dname=长沙典雅橱柜&dev=0&t=0">苹果手机</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#footer">我是百度地图</a></li>
+  </ul>
+</div>
         </div><!-- /.col-lg-4 -->
         <div class="col-md-4 col-sm-6">
           <img class="img-circle center-block" src="Heading11.jpg" alt="Generic placeholder image" width="180" height="160">
@@ -252,8 +269,7 @@
       <!-- FOOTER -->
       <footer id="footer">
           <p class="pull-right"><a href="#">回到顶部</a></p>
-          <p>&copy; 2019长沙典雅橱柜 &middot; <a href="http://www.cmie.cn" target="_blank">Privacy</a> &middot; <a href="#">Terms</a></p>
-          <a href="amapuri://route/plan/?sname=我的位置&dlat=28.184624&dlon=113.016101&dname=长沙典雅橱柜&dev=0&t=0">点此导航到店</a>
+          <p>&copy; 2019长沙典雅橱柜 &middot; <a href="http://www.dianyachugui.com" target="_blank">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 
     </div><!-- /.container -->
