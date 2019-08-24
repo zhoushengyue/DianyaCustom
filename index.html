@@ -63,6 +63,11 @@
                 bottom: 0;
                 z-index:1;-->
       }
+ .carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+.fill-left{width:100%;height:100%;background-position:left;background-size:cover;}
+.fill-center{width:100%;height:100%;background-position:center;background-size:cover;}      
+.fill-right{width:100%;height:100%;background-position:right;background-size:cover;}
     </style>
 <!-- NAVBAR
 ================================================== -->
@@ -119,10 +124,11 @@
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
-      <div class="carousel-inner" role="listbox" >
+        
+      <div class="carousel-inner" >
          
         <div class="item active">
-          <img class="first-slide img-responsive" src="Slide000.jpg" alt="First slide" max-height="100px">
+          <img class="fill-center" style="background-image:url(Slide000.jpg);">
           <div class="container">
             <div class="carousel-caption col-md-7  col-sm-8 col-xs-8">
               <h1 class="banner-text">
@@ -135,11 +141,11 @@
           </div>
         </div>
         <div class="item">
-          <img class="second-slide img-responsive" src="Slide001.jpg" alt="Second slide">
+          <img class="fill-right" style="background-image:url(Slide001.jpg);">
           <div class="container">
             <div class="carousel-caption col-md-7  col-sm-8 col-xs-8">
               <h1 class="banner-text">
-                  <span class="fzruizhk">&#12288;多种风格供您挑选&#12288;<br><small>Multiple Style to Choose</small></span>
+                  <span class="fzruizhk">&#12288;多种风格任选&#12288;<br><small>Multiple Style to Choose</small></span>
                 </h1>    
               
               <p><a class="btn btn-primary" href="典雅-样例展示.html" role="button">查看风格案例</a></p>
@@ -147,7 +153,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="third-slide img-responsive" src="Slide002.jpg" alt="Third slide">
+         <img class="fill-left" style="background-image:url(Slide002.jpg);">
           <div class="container">
             <div class="carousel-caption col-md-7  col-sm-8 col-xs-8">
               <h1 class="banner-text">
