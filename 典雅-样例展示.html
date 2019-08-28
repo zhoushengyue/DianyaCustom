@@ -66,17 +66,17 @@
     font-size: 20px;
     font-family: calibre;
   }
-      .banner-text{
-          background: #000;
-                opacity: 0.8; /*透明度设置样式*/
-             <!--   position: fixed;
-                left: 0;
-                right: 0;
-                top: 0;
-                bottom: 0;
-                z-index:1;-->
-      }
-      
+        .gallery-height{
+    height: 198px;
+  }
+         .galleryimg-height{
+    height: 198px;
+  }
+      .carousel,.item,.active{height:100%;}
+      .carousel-inner{height:100%;}
+      .fill-left{width:100%;height:100%;background-position:left;background-size:cover;}
+      .fill-center{width:100%;height:100%;background-position:center;background-size:contain;}      
+      .fill-right{width:100%;height:100%;background-position:right;background-size:cover;}
       .whitebackground{ background:#ffffff;}
     </style>
 <!-- NAVBAR
@@ -84,9 +84,8 @@
   <body class="whitebackground">
    <div class="row">
             <img src="典雅橱柜.png" class="center-block col-md-1 col-xs-1 col-sm-1 logo-css-2">
-            <h2 class="text-left col-md-7 col-xs-9 col-sm-9 fzruizhk">长沙典雅橱柜|衣柜定制<br><small>Changsha Dianya Cabinet & Wardrobe Custom</small></h2>
-            
-    </div>
+            <h2 class="text-left col-md-7 col-xs-9 col-sm-9 fzruizhk"><br>长沙典雅橱柜|衣柜定制<br><small>Changsha Dianya Cabinet & Wardrobe Custom</small></h2>
+   </div>
       
      <nav class="navbar navbar-default">
           <div class="container-fluid">
@@ -140,7 +139,7 @@
 		<div class="content homepage" id="menu-1">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-2 col-sm-6 ">
+					<div class="col-md-2 col-sm-6">
 						<div class="gallery-item">
 								<img src="images/gallery/gallery-item1.jpg" alt="image 1">
 								<div class="overlay">
@@ -170,7 +169,7 @@
 								<div class="overlay">
 									<a href="images/gallery/gallery-item3.jpg" data-rel="lightbox" class="fa fa-expand"></a>
 								</div>
-								<img src="images/gallery/gallery-item3.jpg" alt="image 3">
+								<img alt="image 3" style="background-image:url(images/gallery/gallery-item3.jpg);">
 							</div>
 							<div class="content-gallery">
 								<h3>案例3</h3>
@@ -183,7 +182,7 @@
 								<div class="overlay">
 									<a href="images/gallery/gallery-item4.jpg" data-rel="lightbox" class="fa fa-expand"></a>
 								</div>
-								<img src="images/gallery/gallery-item4.jpg" alt="image 4">
+								<img alt="image 4" style="background-image:url(images/gallery/gallery-item4.jpg);">
 							</div>
 							<div class="content-gallery">
 								<h3>案例4</h3>
